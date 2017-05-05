@@ -8,6 +8,7 @@ public class Task01_1 {
 
         System.out.println("Enter Your name:");
         String name = new Scanner(System.in).nextLine();
+        System.out.println();
         System.out.println("Hello, " + name);
 
     }
