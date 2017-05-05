@@ -1,8 +1,8 @@
-package JavaCore.Module2.Task012;
+package JavaCore.Module1_2;
 
 
 
-public class Task012 {
+public class Task1 {
 
     public static void main(String[] args) {
 
