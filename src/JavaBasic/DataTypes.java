@@ -1,6 +1,8 @@
 package JavaBasic;
 
 
+import java.util.Scanner;
+
 public class DataTypes {
 
     public static void main(String[] args) {
@@ -8,13 +10,20 @@ public class DataTypes {
         System.out.println("task 1");
         System.out.println("------");
         int q = 13, w = 5;
-        System.out.println(q + "/" + w + "=" + q / w + " и " + q % w + " в остатке");
+        System.out.println(q + " / " + w + " = " + q / w + " и " + q % w + " в остатке");
         System.out.println("---------------------------");
 
         System.out.println("task 2");
         System.out.println("------");
-        int n = 54;
-
+//        System.out.println("enter the number: ");
+//        int k = new Scanner(System.in).nextInt();
+        int k = 999999999; int x = k;
+        int s = 0;
+        while (x != 0 ){
+            s += x % 10;
+            x /= 10;
+        }
+        System.out.println("Сумма цифр в числе " + k + " = " + s);
         System.out.println("---------------------------");
 
         System.out.println("task 3");
