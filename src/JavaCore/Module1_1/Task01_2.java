@@ -7,18 +7,19 @@ public class Task01_2 {
 
     public static void main(String[] args) {
 
-//        System.out.println("введите желаемую длину массива целых чисел");
-//        int i = new Scanner(System.in).nextInt();
-        int mass[] = new int[5];
+        System.out.print("введите необходимую длину массива целых чисел: ");
+        int arraySize = new Scanner(System.in).nextInt();
 
-        for (int n = 0; n < 5; n++) {
-            System.out.println("введите целое число - " + n + "-й элемент массива");
-            mass[n] = new Scanner(System.in).nextInt();
+        int[] intArray = new int[arraySize];
+
+        for (int n = 0; n < arraySize; n++) {
+            System.out.print("введите целое число - " + n + "-й элемент массива: ");
+            intArray[n] = new Scanner(System.in).nextInt();
         }
-        System.out.println("введенный массив" + Arrays.toString(mass));
+        System.out.println("введенный массив:       " + Arrays.toString(intArray));
 
-        Arrays.sort(mass);
-        System.out.println("отсортированный массив" + Arrays.toString(mass));
+        Arrays.sort(intArray);
+        System.out.println("отсортированный массив: " + Arrays.toString(intArray));
 
     }
 
