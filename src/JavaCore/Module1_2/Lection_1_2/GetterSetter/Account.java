@@ -1,4 +1,4 @@
-package JavaCore.Examples.GetterSetter;
+package JavaCore.Module1_2.Lection_1_2.GetterSetter;
 
 //import java.math.BigDecimal;
 import java.util.Date;

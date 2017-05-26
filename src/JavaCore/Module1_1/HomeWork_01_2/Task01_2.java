@@ -1,4 +1,4 @@
-package JavaCore.Module1_1;
+package JavaCore.Module1_1.HomeWork_01_2;
 
 import java.util.Arrays;
 import java.util.Scanner;
