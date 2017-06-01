@@ -1,9 +1,9 @@
-package JavaCore.Module1_1.HomeWork_01_2;
+package javaCore.module1_1.homeWork_01_2;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Task01_2 {
+public class Task01_2_ArraySorting {
 
     public static void main(String[] args) {
 

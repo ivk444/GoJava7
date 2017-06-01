@@ -1,4 +1,4 @@
-package JavaCore.Module1_2.Lection_1_2.GetterSetter;
+package javaCore.module1_2.lection_1_2.getterSetter;
 
 /**
  * {@link Account}

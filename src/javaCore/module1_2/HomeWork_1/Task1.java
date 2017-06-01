@@ -1,4 +1,4 @@
-package JavaCore.Module1_2.HomeWork_1;
+package javaCore.module1_2.homeWork_1;
 
 
 

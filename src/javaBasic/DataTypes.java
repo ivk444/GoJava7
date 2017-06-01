@@ -1,7 +1,5 @@
-package JavaBasic;
+package javaBasic;
 
-
-import java.util.Scanner;
 
 public class DataTypes {
 
